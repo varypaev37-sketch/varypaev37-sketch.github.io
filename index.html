@@ -1,101 +1,105 @@
-: 10px;
-            margin-bottom: 12px;
-        }
-
-        .philo-strip {<style>
-  #selected-publications {
-    max-width: 960px;
-    margin: 3rem auto;
-    padding: 1rem 1.5rem;
-  }
-
-  #selected-publications h2 {
-    font-size: 1.9rem;
-    margin-bottom: 0.75rem;
-  }
-
-  #selected-publications > p {
-    margin-bottom: 1.5rem;
-    color: #555;
-    font-size: 0.98rem;
-  }
-
-  .pub-list {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.25rem;
-  }
-
-  .pub-item {
-    border: 1px solid #e2e2e2;
-    border-radius: 12px;
-    padding: 1.1rem 1.3rem;
-    background: #ffffff;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
-  }
-
-  .pub-title {
-    font-size: 1.05rem;
-    font-weight: 600;
-    margin-bottom: 0.3rem;
-  }
-
-  .pub-authors {
-    font-size: 0.94rem;
-    margin-bottom: 0.25rem;
-    color: #444;
-  }
-
-  .pub-meta {
-    font-size: 0.9rem;
-    margin-bottom: 0.5rem;
-    color: #666;
-  }
-
-  .pub-links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-top: 0.3rem;
-  }
-
-  .pub-link {
-    font-size: 0.88rem;
-    padding: 0.35rem 0.7rem;
-    border-radius: 999px;
-    border: 1px solid #1976d2;
-    text-decoration: none;
-    color: #1976d2;
-    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
-  }
-
-  .pub-link.secondary {
-    border-color: #888;
-    color: #555;
-  }
-
-  .pub-link:hover {
-    background: #1976d2;
-    color: #ffffff;
-  }
-
-  .pub-link.secondary:hover {
-    background: #555;
-    border-color: #555;
-    color: #ffffff;
-  }
-
-  .pub-doi {
-    font-size: 0.82rem;
-    color: #777;
-    margin-top: 0.15rem;
-    word-break: break-all;
-  }
-</style>
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
+
+  <style>
+    .philo-strip {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    #selected-publications {
+      max-width: 960px;
+      margin: 3rem auto;
+      padding: 1rem 1.5rem;
+    }
+
+    #selected-publications h2 {
+      font-size: 1.9rem;
+      margin-bottom: 0.75rem;
+    }
+
+    #selected-publications > p {
+      margin-bottom: 1.5rem;
+      color: #555;
+      font-size: 0.98rem;
+    }
+
+    .pub-list {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+    }
+
+    .pub-item {
+      border: 1px solid #e2e2e2;
+      border-radius: 12px;
+      padding: 1.1rem 1.3rem;
+      background: #ffffff;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+    }
+
+    .pub-title {
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin-bottom: 0.3rem;
+    }
+
+    .pub-authors {
+      font-size: 0.94rem;
+      margin-bottom: 0.25rem;
+      color: #444;
+    }
+
+    .pub-meta {
+      font-size: 0.9rem;
+      margin-bottom: 0.5rem;
+      color: #666;
+    }
+
+    .pub-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 0.3rem;
+    }
+
+    .pub-link {
+      font-size: 0.88rem;
+      padding: 0.35rem 0.7rem;
+      border-radius: 999px;
+      border: 1px solid #1976d2;
+      text-decoration: none;
+      color: #1976d2;
+    }
+
+    .pub-link.secondary {
+      border-color: #888;
+      color: #555;
+    }
+
+    .pub-link:hover {
+      background: #1976d2;
+      color: #ffffff;
+    }
+
+    .pub-link.secondary:hover {
+      background: #555;
+      border-color: #555;
+      color: #ffffff;
+    }
+
+    .pub-doi {
+      font-size: 0.82rem;
+      color: #777;
+      margin-top: 0.15rem;
+      word-break: break-all;
+    }
+  </style>
+
+
     <meta name="google-site-verification" content="NGh28dsO65EwUlpjSc5olc1SI7bl2BQnjKU3L2XJ1JQ" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Варипаєв Олексій Михайлович | Varypaiev Olexii – наукове портфоліо</title>
