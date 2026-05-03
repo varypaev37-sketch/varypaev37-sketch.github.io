@@ -139,14 +139,18 @@
 
         /* --- HEADER --- */
         header {
-            background:
-                    radial-gradient(circle at 0% 0%, rgba(255,255,255,0.15), transparent 55%),
-                    radial-gradient(circle at 100% 100%, rgba(52,152,219,0.35), transparent 55%),
-                    linear-gradient(120deg, #2c3e50, #1a252f);
-            color: white;
-            padding: 28px 24px 30px;
-        }
-
+    position: relative;
+    background:
+        linear-gradient(
+            90deg,
+            rgba(18, 31, 42, 0.78) 0%,
+            rgba(18, 31, 42, 0.64) 42%,
+            rgba(255, 248, 232, 0.32) 100%
+        ),
+        url('skovoroda_slobozhanshchyna_hero.png') center center / cover no-repeat;
+    color: white;
+    padding: 28px 24px 30px;
+}
         .header-inner {
             max-width: 1150px;
             margin: 0 auto;
