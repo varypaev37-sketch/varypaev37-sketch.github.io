@@ -139,15 +139,10 @@
 
         /* --- HEADER --- */
         header {
-    position: relative;
     background:
-        linear-gradient(
-            90deg,
-            rgba(30, 40, 45, 0.56) 0%,
-            rgba(70, 76, 78, 0.38) 42%,
-            rgba(255, 250, 235, 0.12) 100%
-        ),
-        url('skovoroda_slobozhanshchyna_hero.png') left center / cover no-repeat;
+        radial-gradient(circle at 0% 0%, rgba(255,255,255,0.18), transparent 55%),
+        radial-gradient(circle at 100% 100%, rgba(52,152,219,0.22), transparent 55%),
+        linear-gradient(120deg, #41586c, #263746);
     color: white;
     padding: 28px 24px 30px;
 }
@@ -260,12 +255,14 @@
         }
 
         .metric-card {
-            border-radius: 12px;
-            padding: 8px 10px;
-            background: rgba(0, 0, 0, 0.18);
-            border: 1px solid rgba(255, 255, 255, 0.35);
-            font-size: 0.82rem;
-        }
+    border-radius: 12px;
+    padding: 10px 12px;
+    background: rgba(28, 40, 52, 0.52);
+    border: 1px solid rgba(255, 255, 255, 0.32);
+    font-size: 0.82rem;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.14);
+}
 
         .metric-name {
             font-weight: 700;
